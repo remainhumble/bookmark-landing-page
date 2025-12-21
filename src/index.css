@@ -9,7 +9,7 @@ body {
 }
 
 @theme {
-  --font-family: "Rubik", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
   --color-blue-600: hsl(231, 69%, 60%);
   --color-red-400: hsl(0, 94%, 66%);
   --color-grey-50: hsl(0, 0%, 97%);
