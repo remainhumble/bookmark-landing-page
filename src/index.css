@@ -6,6 +6,7 @@ body {
   font-size: 28px;
   width: 100%;
   font-family: "Rubik", sans-serif;
+  text-align: center;
 }
 
 h1,
@@ -17,10 +18,12 @@ h3 {
 p,
 span {
   font-weight: 400;
+  font-size: 16px;
 }
 
 button {
   cursor: pointer;
+  font-size: 16px;
 }
 
 @theme {
