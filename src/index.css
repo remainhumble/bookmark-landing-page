@@ -15,8 +15,16 @@ h3 {
   font-weight: 500;
 }
 
+summary {
+  list-style: none;
+}
+summary::marker {
+  content: "";
+}
+
 p,
-span {
+span,
+h4, ul, li {
   font-weight: 400;
   font-size: 16px;
 }
@@ -24,6 +32,14 @@ span {
 button {
   cursor: pointer;
   font-size: 16px;
+}
+
+img[src*="arrow"],
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 @theme {

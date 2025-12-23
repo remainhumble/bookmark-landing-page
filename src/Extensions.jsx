@@ -6,7 +6,7 @@ const Extensions = () => {
         <>
             <div className="flex flex-col justify-center items-center gap-4 p-2">
                 <h2 className=" text-blue-950 text-sm">Download the extension</h2>
-                <p className=" text-gray-500">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+                <p className="text-gray-500">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
                 <div className="flex flex-col md:flex-row justify-center gap-8 mt-8">
                     <div className="p-4 rounded-md flex flex-col justify-center items-center">
                         <img src={imgs.chrome} alt="Chrome" />
