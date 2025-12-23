@@ -56,7 +56,7 @@ const FAQs = () => {
                     </div>
                 </details>
                 <div className="w-full flex justify-center items-center mt-4">
-                    <button className="bg-blue-600 text-white p-2 rounded-md w-fit">More info</button>
+                    <button className="bg-blue-600 text-white p-2 rounded-sm w-fit">More info</button>
                 </div>
             </div>
         </>
