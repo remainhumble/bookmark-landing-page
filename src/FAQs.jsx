@@ -4,12 +4,12 @@ import imgs from '../images/images.js';
 const FAQs = () => {
     return (
         <>
-            <div className="flex flex-col gap-4 px-4 text-left">
+            <div className="flex flex-col gap-4 py-6 px-4 text-left">
                 <div className="topheading text-center">
                     <h2 className="text-blue-950 text-sm">Frequently Asked Questions</h2>
                     <p className="text-gray-500 my-2">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
                 </div>
-                <details className="faq">
+                <details className="faq border-b-2 border-b-solid border-b-gray-200 pb-2">
                     <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">What is Bookmark?</h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                     <div className="answer my-4">
                         <p className="text-gray-500 text-xs/5">
@@ -19,7 +19,7 @@ const FAQs = () => {
                     </div>
                 </details>
 
-                <details className="faq">
+                <details className="faq border-b-2 border-b-solid border-b-gray-200 pb-2">
                     <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">How can I request a new browser?</h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                     <div className="answer my-4">
                         <p className="text-gray-500 text-xs/5">
@@ -35,7 +35,7 @@ const FAQs = () => {
                     </div>
                 </details>
 
-                <details className="faq">
+                <details className="faq border-b-2 border-b-solid border-b-gray-200 pb-2">
                     <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">Is there a mobile app
                     </h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                     <div className="answer my-4">
@@ -45,7 +45,7 @@ const FAQs = () => {
                     </div>
                 </details>
 
-                <details className="faq">
+                <details className="faq border-b-2 border-b-solid border-b-gray-200 pb-2">
                     <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">
                         What about other Chromium browsers?
                     </h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>

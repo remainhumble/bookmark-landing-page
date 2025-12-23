@@ -4,7 +4,7 @@ import imgs from '../images/images.js';
 const Features = () => {
     return (
         <>
-            <div className="p-2">
+            <div className="py-6 px-2">
                 <h2 className="text-blue-950 text-sm">Features</h2>
                 <p className="text-gray-500">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
                 <ul className="text-gray-500">
