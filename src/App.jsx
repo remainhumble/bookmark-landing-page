@@ -3,7 +3,7 @@ import Hero from './Hero.jsx';
 import Extensions from './Extensions.jsx';
 import FAQs from './FAQs.jsx';
 import Contact from './Contact.jsx';
-//import Footer from './Footer.jsx';
+import Footer from './Footer.jsx';
 
 const App = () => {
     return (
@@ -13,9 +13,9 @@ const App = () => {
             <Extensions />
             <FAQs />
             <Contact />
-            {/*<Footer /> */}
+            <Footer />
         </div>
     )
 }
 
-export default App
+export default App;

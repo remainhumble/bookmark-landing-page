@@ -24,7 +24,9 @@ summary::marker {
 
 p,
 span,
-h4, ul, li {
+h4,
+ul,
+li {
   font-weight: 400;
   font-size: 16px;
 }
