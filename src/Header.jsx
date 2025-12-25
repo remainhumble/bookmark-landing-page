@@ -19,9 +19,9 @@ const Header = () => {
                         </button>
                     </div>
                     <el-popover-group class="hidden lg:flex lg:justify-end lg:gap-x-9 uppercase items-center">
-                        <a href="#" class="text-[16px] text-gray-500">Features</a>
+                        <a href="#features" class="text-[16px] text-gray-500">Features</a>
                         <a href="#" class="text-[16px] text-gray-500">Pricing</a>
-                        <a href="#" class="text-[16px] text-gray-500">Contact</a>
+                        <a href="#contact" class="text-[16px] text-gray-500">Contact</a>
                         {/* <!-- login --> */}
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                             <button href="#" class="bg-red-400 px-4 py-1 uppercase rounded-sm text-white">Login</button>

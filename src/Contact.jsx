@@ -3,7 +3,7 @@ import "./index.css";
 const Contact = () => {
     return (
         <>
-            <div className="flex flex-col justify-center items-center gap-1 py-4 px-0 bg-blue-600">
+            <div className="flex flex-col justify-center items-center gap-1 py-4 px-0 bg-blue-600" id="contact">
                 <span className="text-white uppercase tracking-[.25em]">35,000+ already joined</span>
                 <h2 className="text-white font-bold text-center text-sm">Stay up-to-date with what we're doing</h2>
                 <div className="gap-2 mt-4 flex flex-col sm:flex-row justify-center items-center">
