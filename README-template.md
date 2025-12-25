@@ -95,8 +95,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [ChatGPT](https://chatgpt.com/) - Changed the BOOKMARK color to white while leaving the blue circle and inner bookmark unchanged.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [Tailwind Headers](https://tailwindcss.com/plus/ui-blocks/marketing/elements/headers) - This is an size which contains examples that are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author

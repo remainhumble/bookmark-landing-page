@@ -12,6 +12,7 @@ import illustrationHero from "./illustration-hero.svg";
 import chrome from "./logo-chrome.svg";
 import firefox from "./logo-firefox.svg";
 import opera from "./logo-opera.svg";
+import blackBookmark from "./logo-bookmark.svg";
 import whiteBookmark from "./logo-bookmark-white.svg";
 
 const imgs = {
@@ -29,6 +30,7 @@ const imgs = {
   chrome,
   firefox,
   opera,
+  blackBookmark,
   whiteBookmark,
 };
 
