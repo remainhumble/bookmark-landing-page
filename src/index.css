@@ -31,6 +31,10 @@ li {
   font-size: 16px;
 }
 
+.joined {
+  font-size: 11px;
+}
+
 button {
   cursor: pointer;
   font-size: 16px;
