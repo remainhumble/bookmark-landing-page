@@ -10,9 +10,9 @@ const Footer = () => {
                 </div>
 
                 <ul className="footer-links text-grey-50 uppercase tracking-[3px] p-4 sm:py-1 flex flex-col sm:flex-row">
-                    <li className="p-2"><a href="#">Features</a></li>
+                    <li className="p-2"><a href="#features">Features</a></li>
                     <li className="p-2"><a href="#">Pricing</a></li>
-                    <li className="p-2"><a href="#">Contact</a></li>
+                    <li className="p-2"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div className="footer-social flex flex-row gap-4 p-4 sm:py-1">

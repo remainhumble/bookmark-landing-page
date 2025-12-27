@@ -7,6 +7,8 @@ body {
   width: 100%;
   font-family: "Rubik", sans-serif;
   text-align: center;
+  position: relative;
+  overflow-x: hidden;
 }
 
 h1,
@@ -48,7 +50,25 @@ img[src*="arrow"],
   flex-shrink: 0;
 }
 
+.hero-img::after {
+  content: "";
+  display: block;
+  width: clamp(24.0625rem, 11.9407rem + 102.9197vw, 48.5rem);
+  height: clamp(6.685rem, 4.1859rem + 24.2628vw, 22rem);
+  border-radius: calc(clamp(6.3425rem, 2.09295rem + 18.1314vw, 11rem) / 2);
+  background-color: var(--color-blue-600);
+  position: absolute;
+  top: 235px;
+  left: 115%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
 
+@media (max-width: 768px) {
+  .hero-img::after {
+    top: 180px;
+  }
+}
 
 @theme {
   --font-rubik: "Rubik", sans-serif;

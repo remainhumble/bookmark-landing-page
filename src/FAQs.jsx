@@ -6,7 +6,7 @@ const FAQs = () => {
         <>
             <div className="flex flex-col gap-4 py-6 px-4 text-left max-w-73 mx-auto">
                 <div className="topheading text-center">
-                    <h2 className="text-blue-950 text-sm">Frequently Asked Questions</h2>
+                    <h2 className="text-blue-950">Frequently Asked Questions</h2>
                     <p className="text-gray-500 my-2">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
                 </div>
                 <div className="faqs max-w-sm mx-auto w-full flex flex-col my-2">
