@@ -99,6 +99,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Tailwind Headers](https://tailwindcss.com/plus/ui-blocks/marketing/elements/headers) - This is an size which contains examples that are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.
 - [transform](https://transform.tools/css-to-tailwind) - Convert Vanilla CSS to Tailwind CSS.
 
+- [ClampCSS](https://clampcss.com/css-filter.html) - The ultimate tool to convert HEX or RGB colors into accurate CSS filters with ease.
+
+
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)

@@ -11,7 +11,7 @@ const FAQs = () => {
                 </div>
                 <div className="faqs max-w-sm mx-auto w-full flex flex-col my-2">
                     <details className="faq border-b-2 border-t-2 border-b-solid border-t-solid border-b-gray-200 border-t-gray-200 gap-4 py-2">
-                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">What is Bookmark?</h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
+                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs hover:text-red-400">What is Bookmark?</h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                         <div className="answer my-4">
                             <p className="text-gray-500 text-xs/5">
                                 A saved shortcut that directs your web browser to a specific webpage. It stores essential information such as the title, URL, and favicon of the page, allowing users to easily access their favorite websites without needing to remember or retype the web address. Bookmarks are a key feature in web browsers, enabling users to organize and revisit specific sites quickly.
@@ -21,7 +21,7 @@ const FAQs = () => {
                     </details>
 
                     <details className="faq border-b-2 border-b-solid border-b-gray-200 py-2">
-                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">How can I request a new browser?</h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
+                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs hover:text-red-400">How can I request a new browser?</h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                         <div className="answer my-4">
                             <p className="text-gray-500 text-xs/5">
                                 To request a new browser, follow these steps:
@@ -37,7 +37,7 @@ const FAQs = () => {
                     </details>
 
                     <details className="faq border-b-2 border-b-solid border-b-gray-200 py-2">
-                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">Is there a mobile app
+                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs hover:text-red-400">Is there a mobile app
                         </h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                         <div className="answer my-4">
                             <p className="text-gray-500 text-xs/5">
@@ -47,7 +47,7 @@ const FAQs = () => {
                     </details>
 
                     <details className="faq border-b-2 border-b-solid border-b-gray-200 py-2">
-                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs">
+                        <summary className="flex justify-between"><h4 className="text-blue-950 text-xs hover:text-red-400">
                             What about other Chromium browsers?
                         </h4><img src={imgs.iconArrow} alt="arrow" className="arrow-icon" /></summary>
                         <div className="answer my-4">
@@ -58,7 +58,7 @@ const FAQs = () => {
                     </details>
                 </div>
                 <div className="w-full flex justify-center items-center mt-3 mb-12">
-                    <button className="bg-blue-600 text-white p-2 rounded-sm w-fit">More info</button>
+                    <button className="bg-blue-600 text-white p-2 rounded-sm w-fit border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">More info</button>
                 </div>
             </div>
         </>

@@ -13,21 +13,21 @@ const Extensions = () => {
                         <h3 className="text-blue-950 text-xs mt-2">Add to Chrome</h3>
                         <span className="text-gray-500 py-2">Minimum version 62</span>
                         <img src={imgs.bgDots} alt="bg-dots" />
-                        <button className="mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-sm">Add & Install Extension</button>
+                        <button className="mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-sm border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">Add & Install Extension</button>
                     </div>
                     <div className="py-4 md:mt-9 rounded-lg flex flex-col justify-center items-center shadow-xl">
                         <img src={imgs.firefox} alt="Firefox" />
                         <h3 className="text-blue-950 text-xs mt-2">Add to Firefox</h3>
                         <span className="text-gray-500 py-2">Minimum version 55</span>
                         <img src={imgs.bgDots} alt="bg-dots" />
-                        <button className="mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-sm">Add & Install Extension</button>
+                        <button className="mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-sm border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">Add & Install Extension</button>
                     </div>
                     <div className="py-4 md:mt-18 rounded-lg flex flex-col justify-center items-center shadow-xl">
                         <img src={imgs.opera} alt="Opera" />
                         <h3 className="text-blue-950 text-xs mt-2">Add to Opera</h3>
                         <span className="text-gray-500 py-2">Minimum version 46</span>
                         <img src={imgs.bgDots} alt="bg-dots" />
-                        <button className="mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-sm">Add & Install Extension</button>
+                        <button className="mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-sm  border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">Add & Install Extension</button>
                     </div>
                 </div>
             </div>

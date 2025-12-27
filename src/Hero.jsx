@@ -12,8 +12,8 @@ const Hero = () => {
                     <h1 className="text-blue-950 md:text-2xl">A Simple Bookmark Manager</h1>
                     <p className="text-gray-500">A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
                     <div className="flex flex-row justify-center gap-2 mt-2">
-                        <button className="bg-blue-600 text-white p-2 rounded-sm font-medium shadow-xl">Get it on Chrome</button>
-                        <button className="bg-grey-50 text-gray-600 p-2 rounded-sm font-medium shadow-xl">Get it on Firefox</button>
+                        <button className="bg-blue-600 text-white p-2 rounded-sm font-medium shadow-xl border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">Get it on Chrome</button>
+                        <button className="bg-grey-50 text-gray-600 p-2 rounded-sm font-medium shadow-xl border-grey-50 hover:bg-white hover:text-gray-600 border-2 hover:border-gray-600">Get it on Firefox</button>
                     </div>
                 </div>
             </div>

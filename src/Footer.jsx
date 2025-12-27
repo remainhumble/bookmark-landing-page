@@ -10,13 +10,13 @@ const Footer = () => {
                 </div>
 
                 <ul className="footer-links text-grey-50 uppercase tracking-[3px] p-4 sm:py-1 flex flex-col sm:flex-row">
-                    <li className="p-2"><a href="#features">Features</a></li>
-                    <li className="p-2"><a href="#">Pricing</a></li>
-                    <li className="p-2"><a href="#contact">Contact</a></li>
+                    <li className="p-2 hover:text-red-400"><a href="#features">Features</a></li>
+                    <li className="p-2 hover:text-red-400"><a href="#">Pricing</a></li>
+                    <li className="p-2 hover:text-red-400"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div className="footer-social flex flex-row gap-4 p-4 sm:py-1">
-                <a href="https://facebook.com"><img src={imgs.iconFacebook} alt="facebook" /></a>
+                <a href="https://facebook.com" target="_blank"><img src={imgs.iconFacebook} alt="facebook"/></a>
                 <a href="https://x.com" target="_blank"><img src={imgs.iconTwitter} alt="twitter" /></a>
             </div>
 
