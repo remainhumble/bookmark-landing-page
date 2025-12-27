@@ -48,6 +48,8 @@ img[src*="arrow"],
   flex-shrink: 0;
 }
 
+
+
 @theme {
   --font-rubik: "Rubik", sans-serif;
   --color-blue-600: hsl(231, 69%, 60%);
