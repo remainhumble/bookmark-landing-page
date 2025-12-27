@@ -29,30 +29,29 @@ const Header = () => {
                     </el-popover-group>
                 </nav>
                 <el-dialog>
-                    <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
-                        <div tabindex="0" class="fixed inset-0 focus:outline-none">
-                            <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                                <div class="flex items-center justify-between">
-                                    <a href="#" class="-m-1.5 p-1.5">
-                                        <span class="sr-only">Your Company</span>
-                                        <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="" class="h-8 w-auto" />
+                    <dialog id="mobile-menu" className="backdrop:bg-transparent lg:hidden">
+                        <div tabindex="0" className="fixed inset-0 focus:outline-none">
+                            <el-dialog-panel className="bg-blue-950 fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-4 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                                <div className="flex items-center justify-between">
+                                    <a href="#" className="-m-1.5 p-1.5">
+                                        <span className="sr-only">Your Company</span>
+                                        <img src={imgs.whiteBookmark} alt="bookmark-logo" className="w-24 md:w-26" />
                                     </a>
-                                    <button type="button" command="close" commandfor="mobile-menu" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                                        <span class="sr-only">Close menu</span>
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
-                                            <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                    <button type="button" command="close" commandfor="mobile-menu" className="rounded-md text-gray-700">
+                                        <span className="sr-only">Close menu</span>
+                                        <img src={imgs.iconClose} alt="close" className="close w-3" />
                                     </button>
                                 </div>
-                                <div class="mt-6 flow-root">
+                                <div className="mt-6 flow-root">
+                                    <ul className="flex sm:flex-row flex-col justify-center items-center mt-4 joined max-w-md mx-auto">
+                                        <li className="text-xs text-gray-500 w-full border-solid border-b-0 sm:border-b-[1.5px] border-t-[1.5px] sm:border-t-0 border-[lightgray] h-full py-2 hover:bg-gray-50"><a href="#features">Features</a></li>
+                                        <li className="text-xs text-gray-500 w-full border-solid border-[1.5px_0_1.5px_0] sm:border-b-[1.5px] sm:border-t-0 border-[lightgray] h-full py-2 hover:bg-gray-50"><a href="#">Pricing</a></li>
+                                        <li className="text-xs text-gray-500 w-full border-solid sm:border-b-[1.5px] border-b-[1.5px] sm:border-t-0 border-[lightgray] h-full py-2 hover:bg-gray-50"><a href="#contact">Contact</a></li>
+                                    </ul>
 
-                                    <div class="">
-                                        <a href="#" class="-mx-3 block text-xs text-gray-500 hover:bg-gray-50">Features</a>
-                                        <a href="#" class="-mx-3 block text-xs text-gray-500 hover:bg-gray-50">Pricing</a>
-                                        <a href="#" class="-mx-3 block text-xs text-gray-500 hover:bg-gray-50">Contact</a>
-                                    </div>
-                                    <div class="py-6">
-                                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-xs text-gray-500 hover:bg-gray-50">Login</a>
+                                    <div className="footer-social flex flex-row justify-center w-full gap-4 p-4 sm:py-1 fixed bottom-0 left-0">
+                                        <a href="https://facebook.com" target="_blank"><img src={imgs.iconFacebook} alt="facebook" /></a>
+                                        <a href="https://x.com" target="_blank"><img src={imgs.iconTwitter} alt="twitter" /></a>
                                     </div>
 
                                 </div>

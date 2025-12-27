@@ -54,7 +54,7 @@ img[src*="arrow"],
   flex-shrink: 0;
 }
 
-a[href*="https://facebook.com"]:hover, a[href*="https://x.com"]:hover, img[src*="arrow"]:hover {
+a[href*="https://facebook.com"]:hover, a[href*="https://x.com"]:hover, img[src*="arrow"]:hover, .close:hover {
    filter: brightness(0) saturate(100%) invert(47%) sepia(11%) saturate(2986%) hue-rotate(314deg) brightness(103%) contrast(103%);
 }
 
