@@ -31,7 +31,7 @@ const Header = () => {
                 <el-dialog>
                     <dialog id="mobile-menu" className="backdrop:bg-transparent lg:hidden">
                         <div tabindex="0" className="fixed inset-0 focus:outline-none">
-                            <el-dialog-panel className="bg-blue-950 fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-4 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                            <el-dialog-panel className="bg-blue-950 opacity-90 fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-4 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                                 <div className="flex items-center justify-between">
                                     <a href="#" className="-m-1.5 p-1.5">
                                         <span className="sr-only">Your Company</span>
@@ -42,12 +42,14 @@ const Header = () => {
                                         <img src={imgs.iconClose} alt="close" className="close w-3" />
                                     </button>
                                 </div>
-                                <div className="mt-6 flow-root">
-                                    <ul className="flex sm:flex-row flex-col justify-center items-center mt-4 joined max-w-md mx-auto">
-                                        <li className="text-xs text-gray-500 w-full border-solid border-b-0 sm:border-b-[1.5px] border-t-[1.5px] sm:border-t-0 border-[lightgray] h-full py-2 hover:bg-gray-50"><a href="#features">Features</a></li>
-                                        <li className="text-xs text-gray-500 w-full border-solid border-[1.5px_0_1.5px_0] sm:border-b-[1.5px] sm:border-t-0 border-[lightgray] h-full py-2 hover:bg-gray-50"><a href="#">Pricing</a></li>
-                                        <li className="text-xs text-gray-500 w-full border-solid sm:border-b-[1.5px] border-b-[1.5px] sm:border-t-0 border-[lightgray] h-full py-2 hover:bg-gray-50"><a href="#contact">Contact</a></li>
+                                <div className="flow-root">
+                                    <ul className="uppercase border-gray-600 text-white flex sm:flex-row flex-col justify-center items-center mt-4 joined max-w-md mx-auto">
+                                        <li className="text-xs border-gray-500 w-full border-solid border-b-0 sm:border-b-[1.5px] border-t sm:border-t-0 h-full py-2 hover:bg-gray-50"><a href="#features">Features</a></li>
+                                        <li className="text-xs border-gray-500 w-full border-solid border-[1.5px_0_1.5px_0] sm:border-b sm:border-t-0 h-full py-2 hover:bg-gray-50"><a href="#">Pricing</a></li>
+                                        <li className="text-xs border-gray-500 w-full border-solid sm:border-b-[1.5px] border-b sm:border-t-0 h-full py-2 hover:bg-gray-50"><a href="#contact">Contact</a></li>
                                     </ul>
+
+                                    <button className="w-full font-medium mt-3 px-4 py-1 uppercase rounded-sm tracking-[.20em] text-white hover:bg-white border-2 focus:bg-white focus:border-white focus:text-blue-950">Login</button>
 
                                     <div className="footer-social flex flex-row justify-center w-full gap-4 p-4 sm:py-1 fixed bottom-0 left-0">
                                         <a href="https://facebook.com" target="_blank"><img src={imgs.iconFacebook} alt="facebook" /></a>
