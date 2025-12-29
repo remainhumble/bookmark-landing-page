@@ -1,8 +1,15 @@
+import React, { useState } from "react";
 import "./index.css";
-import imgs from '../images/images.js';
 import featuresObj from "./FeaturesObject";
 
 const Features = () => {
+
+    const [activeTab, setActiveTab] = useState(0);
+
+    const handleTabClick = (index) => {
+        setActiveTab(index);
+    }
+
     return (
         <>
             <div className="my-21 px-4" id="features">
@@ -16,16 +23,16 @@ const Features = () => {
                     <li className="w-full border-solid sm:border-b-[1.5px] border-b-[1.5px] sm:border-t-0 h-full py-2 hover:text-red-400">Easy Sharing</li>
                 </ul>
                 {/* tabs */}
-                <div className="feature-content rounded-md flex flex-col md:flex-row justify-center items-center mt-4 px-4 md:px-8 py-6">
-                    <img src={imgs.illustrationFeaturesTab1} alt="illustration-features-tab-1" />
+                {<div className="feature-content rounded-md flex flex-col md:flex-row justify-center items-center mt-4 px-4 md:px-8 py-6">
+                    <img src={featuresObj[activeTab].image} alt={featuresObj[activeTab].alt} />
                     <div className="flex flex-col justify-center items-center md:items-start gap-4 max-w-md text-center md:text-left md:px-11">
-                        <h2 className="text-blue-950 text-sm mt-6">{featuresObj.title}</h2>
-                        <p className="text-gray-400 text-xs">{featuresObj.description}</p>
+                        <h2 className="text-blue-950 text-sm mt-6">{featuresObj[activeTab].title}</h2>
+                        <p className="text-gray-400 text-xs">{featuresObj[activeTab].description}</p>
                         <div className="hidden w-full md:flex justify-start items-center mt-3 mb-12">
-                            <button className="bg-blue-600 text-white p-2 rounded-sm w-fit shadow-xl border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">{featuresObj.buttonText}</button>
+                            <button className="bg-blue-600 text-white p-2 rounded-sm w-fit shadow-xl border-blue-600 hover:bg-white hover:text-blue-600 border-2 hover:border-blue-600">{featuresObj[activeTab].buttonText}</button>
                         </div>
                     </div>
-                </div>
+                </div>}
             </div>
         </>
     )
