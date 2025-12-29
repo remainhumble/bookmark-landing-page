@@ -66,7 +66,7 @@ a[href*="https://facebook.com"]:hover, a[href*="https://x.com"]:hover, img[src*=
     hue-rotate(314deg) brightness(103%) contrast(103%);
 }
 
-.hero-img::after {
+.hero-blob::after {
   content: "";
   display: block;
   width: clamp(24.0625rem, 11.9407rem + 102.9197vw, 48.5rem);
@@ -80,9 +80,29 @@ a[href*="https://facebook.com"]:hover, a[href*="https://x.com"]:hover, img[src*=
   z-index: -1;
 }
 
+.feature-blob::after {
+  content: "";
+  display: block;
+  width: clamp(3.0625rem, 5.5rem + 52.9197vw, 48.5rem);
+  height: clamp(1.685rem, 2.25rem + 12.2628vw, 22rem);
+  border-radius: calc(clamp(6.3425rem, 2.09295rem + 18.1314vw, 11rem) / 2);
+  background-color: var(--color-blue-600);
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
 @media (max-width: 768px) {
-  .hero-img::after {
+  .hero-blob::after {
     top: 180px;
+  }
+
+  .feature-blob::after {
+    top: 1350px;
+    width: clamp(6.0625rem, 11rem + 52.9197vw, 48.5rem);
+    height: clamp(2.685rem, 5.68rem + 12.2628vw, 11rem);
   }
 }
 
