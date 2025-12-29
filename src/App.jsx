@@ -9,17 +9,16 @@ import Header from './Header.jsx';
 const App = () => {
     return (
         <>
-            <html lang="en" class="scroll-smooth">
-                <Header />
-                <Hero />
-                <Features />
-                <Extensions />
-                <FAQs />
-                <Contact />
-                <Footer />
-            </html>
+            <Header />
+            <Hero />
+            <Features />
+            <Extensions />
+            <FAQs />
+            <Contact />
+            <Footer />
         </>
     )
 }
 
 export default App;
+
