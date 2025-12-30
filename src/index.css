@@ -54,7 +54,17 @@ button {
   font-size: 16px;
 }
 
+.arrow-icon {
+  transition: transform 0.2s ease;
+}
+
 .arrow-icon:hover {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(11%) saturate(2986%)
+    hue-rotate(314deg) brightness(103%) contrast(103%);
+}
+
+details[open] .arrow-icon {
+  transform: rotate(180deg);
   filter: brightness(0) saturate(100%) invert(47%) sepia(11%) saturate(2986%)
     hue-rotate(314deg) brightness(103%) contrast(103%);
 }
@@ -119,4 +129,9 @@ a[href*="https://facebook.com"]:hover, a[href*="https://x.com"]:hover, img[src*=
   --color-red-400: hsl(0, 94%, 66%);
   --color-grey-50: hsl(0, 0%, 97%);
   --color-blue-950: hsl(229, 31%, 21%);
+}
+
+/* Error icon helper */
+.icon-error {
+  pointer-events: none;
 }

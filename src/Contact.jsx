@@ -1,5 +1,6 @@
 import "./index.css";
 import { useState } from "react";
+import imgs from '../images/images.js';
 
 const Contact = () => {
 
@@ -43,6 +44,7 @@ const Contact = () => {
                                     placeholder="Enter your email address"
                                     className={`w-full border-2 text-[16px] px-2 py-2 rounded-sm bg-white outline-none flex-1 ${error ? 'border-red-400' : 'border-white'}`}
                                 />
+                                <img src={imgs.iconError} alt="error" className={`absolute -translate-y-1/4 right-[0.65rem] top-[25%] ${error ? 'block' : 'hidden'}`} />
                                 <span className="error w-full flex justify-start text-sm rounded-sm py-1 px-2 italic text-white" style={{ display: error ? 'block' : 'none' }}>
                                     Whoops, make sure it's an email
                                 </span>
