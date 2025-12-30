@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   cacheDir: 'node_modules/.vite-temp',
   plugins: [tailwindcss(), react()],
+  base: "/bookmark-landing-page/",
 })
