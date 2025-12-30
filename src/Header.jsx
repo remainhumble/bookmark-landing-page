@@ -24,7 +24,7 @@ const Header = () => {
                         <a href="#contact" class="text-[16px] text-blue-950 hover:text-red-400">Contact</a>
                         {/* <!-- login --> */}
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                            <button href="#" class="bg-red-400 px-4 py-1 uppercase rounded-sm text-white hover:bg-white hover:text-red-400 border-2 hover:border-solid-red-400">Login</button>
+                            <button href="#" class="bg-red-400 border-red-400 px-4 py-1 shadow-lg uppercase rounded-sm text-white hover:bg-white hover:text-red-400 border-2 hover:border-solid-red-400">Login</button>
                         </div>
                     </el-popover-group>
                 </nav>
